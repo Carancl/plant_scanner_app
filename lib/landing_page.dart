@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_scanner_app/collection.dart';
 
 class LandingPage extends StatelessWidget {
   @override
@@ -117,6 +118,11 @@ class LandingPage extends StatelessWidget {
             child: SizedBox(
               width: 134,
               height: 32,
+              child: TextButton(
+              onPressed: () { Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const CollectionPage()),
+                      ); },
               child: Text(
                 'Collection',
                 textAlign: TextAlign.center,
@@ -130,6 +136,7 @@ class LandingPage extends StatelessWidget {
                 ),
               ),
             ),
+          ),
           ),
           Positioned(
             left: 84,
