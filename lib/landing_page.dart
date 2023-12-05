@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_scanner_app/collection.dart';
 import 'package:plant_scanner_app/almanac.dart'; 
 import 'package:plant_scanner_app/camera.dart'; 
 
@@ -125,10 +126,11 @@ class LandingPage extends StatelessWidget {
             child: SizedBox(
               width: 134,
               height: 32,
-               child: TextButton(
+
+              child: TextButton(
               onPressed: () { Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const AlmanacPage()),
+                        MaterialPageRoute(builder: (context) => const CollectionPage()),
                       ); },
               child: Text(
                 'Collection',
