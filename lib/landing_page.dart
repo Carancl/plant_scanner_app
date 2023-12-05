@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plant_scanner_app/collection.dart';
+import 'package:plant_scanner_app/almanac.dart'; 
+import 'package:plant_scanner_app/camera.dart'; 
 
 class LandingPage extends StatelessWidget {
   @override
@@ -98,6 +100,11 @@ class LandingPage extends StatelessWidget {
             child: SizedBox(
               width: 134,
               height: 32,
+              child: TextButton(
+              onPressed: () { Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const AlmanacPage()),
+                      ); },
               child: Text(
                 'Almanac',
                 textAlign: TextAlign.center,
@@ -111,6 +118,7 @@ class LandingPage extends StatelessWidget {
                 ),
               ),
             ),
+            ),
           ),
           Positioned(
             left: 161,
@@ -118,6 +126,7 @@ class LandingPage extends StatelessWidget {
             child: SizedBox(
               width: 134,
               height: 32,
+
               child: TextButton(
               onPressed: () { Navigator.push(
                         context,
@@ -144,6 +153,11 @@ class LandingPage extends StatelessWidget {
             child: SizedBox(
               width: 134,
               height: 32,
+              child: TextButton(
+              onPressed: () { Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const CameraPage()),
+                      ); },
               child: Text(
                 'Camera',
                 textAlign: TextAlign.center,
@@ -156,6 +170,7 @@ class LandingPage extends StatelessWidget {
                   letterSpacing: 0.78,
                 ),
               ),
+            ),
             ),
           ),
 
