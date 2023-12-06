@@ -225,7 +225,7 @@ class Almanac2 extends StatelessWidget {
                 width: 50,
                 height: 50,
                 child: IconButton(
-                  icon: Image.network("https://s3-alpha-sig.figma.com/img/25fb/eadd/326678f4ab8c1cc3100094079ba6dd9f?Expires=1702857600&Signature=ZGv39lwi7DcS~3m8p4jPjhenNqwdNddwG4mZpPhDbjwu1FsO6M0iYeur~fbOj53U~~RH6xQAK7rewGsgpfUxbMIS5EGC2LmYSR3Yp-FL6o75rWcanCDfvcHa0fKOY4Ubx~KGxSyT1tnO8eLi7Ek2kg-JI-kWSR1Hay4nWCLgBAJEABi4XqFsSj68nJl~j4sZ2zDFC0vhnm2Y51e4kOFTutC5EfNy9qVf-DdlFv7bo5zgvk-1BfkP~7ooY8YFVnIykHQSBrXH-S7W~vXu2pKMdqUWkRZDjW9RgnIYwMT~WsMzvPYDAKZZphxHupiZacH-8S9YbaOKQKVtIwIldbHmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
+                  icon: Image.network("https://s3-alpha-sig.figma.com/img/ccdd/9a97/feb8be57eba8c5c6b687f7ba00101893?Expires=1702857600&Signature=OPWVWc~XqSSgGaT9yJU6Y2V8qU6sG5HXYx4KMGDD8eBNm0wB0G5qwTP3jAH4PbYxcrQ-XnA5rOvpzWM0XpXlXHObB4~uvsUpS7Xb3-4hh7N3hI1mcqKz9iZl--GZUYQ5lRGiacdhqSWNeXpPhZfLNfHAPYaYeRcVbPm-xCSUb6kjfNlWC4gyK6ZccJTzyVZzjvdPz-X1PlVqImcNyQGG-6biRnwn6Sa5OKTDPIg990fCNPbBx9HLIHaNP4WBHbkFwYmKeUdZREs~ZYtwF2D93fNBYf1wo7g2NEJurgK8HRdDMrlLcelkaxChLjlNFmevwl2QQPhl5GVjE4ujEpmfPg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
                   onPressed: () {
                     Navigator.push(
                         context,

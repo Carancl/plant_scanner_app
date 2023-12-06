@@ -9,7 +9,7 @@ class CollectionPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: const Color.fromARGB(255, 18, 32, 47),
+        scaffoldBackgroundColor: const Color(0xFFCAE1C0),
       ),
       home: Scaffold(
         body: ListView(children: [
@@ -44,7 +44,7 @@ class Collection extends StatelessWidget {
             children: [
               Positioned(
                 left: 123,
-                top: 20,
+                top: 30,
                 child: SizedBox(
                   width: 144,
                   height: 34,
@@ -63,7 +63,7 @@ class Collection extends StatelessWidget {
               ),
               Positioned(
                 left: 20,
-                top: 50,
+                top: 70,
                 child: Container(
                   width: 349,
                   height: 212,
@@ -117,13 +117,13 @@ class Collection extends StatelessWidget {
               ),
               Positioned(
                 left: 37,
-                top: 90,
+                top: 105,
                 child: Container(
                   width: 132,
                   height: 137,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://via.placeholder.com/132x137"),
+                      image: NetworkImage("https://s3-alpha-sig.figma.com/img/41a5/9759/c73e8ab510a0d93e210e7c8872525bed?Expires=1702857600&Signature=aAFBzWVVaKrUHl1hdVSAeXidlBW6AZpfZYX7X8HJfc9lo9AGfP7hf9hNPlLgKt4flmvZc3lUPW~tFcb3YxSK1y3mFM3LSid0R0hbThFUn6uCQ9HVm0MCj-rqT8OtrCfv7L0-TuTw4Oji8QdtADpIulWYYwE9YpOyTTXETgznlruIh1m8X-nl1R82JEH3KX6MufTb-yndHIbTCb9J-cIsrcQ~wxZ3ncGElqleD~bzvQebrs15uGDLiTxMzLRKJzk1Ugd-fuWPEJ1VCsEWTpMaEDT0OYEFPHG2T2mMgaRcmj724nVyA8pS5UQ7~mr3n8tr8RsLiuatOT4Lh8EK0x8K6w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
                       fit: BoxFit.fill,
                     ),
                   ),
@@ -131,13 +131,13 @@ class Collection extends StatelessWidget {
               ),
               Positioned(
                 left: 216,
-                top: 90,
+                top: 105,
                 child: Container(
                   width: 133,
                   height: 137,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage("https://via.placeholder.com/133x137"),
+                      image: NetworkImage("https://s3-alpha-sig.figma.com/img/f0cc/87b9/50be6b66cec9b84bdf0c91560554d8db?Expires=1702857600&Signature=XILmzta-4eV4LiC3zPwbTEWS4cEjF-dUuF9UW9IAn62nYLTNO2JVQyHItBCbvaeqThDCVhxUHhcKXKZj65jnyHmzcG58Mrt1S3nZsf4FP6~-ZUUqiAFkuujgDOHIE~HBvuqG9CG3xwHZ5ZW7mtG5j0kfCuDm1GftHqycGkrGuw4~47ogu9FkbgjKcvSv7srnUDPsk4YOXH6nDMJts62UulOWStf8dE7ydrlnamkN6R2QQW~ix3x1iferVRUPBkrAPYfD1UKAgUA7Mev5gMF48R~XDihZJhFbYouVZt3Coi~g07sBQUFPsG5MDoIGDpBsYCvOaXjqGZoFrWE0yzzMxA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
                       fit: BoxFit.fill,
                     ),
                   ),

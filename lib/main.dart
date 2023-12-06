@@ -141,9 +141,13 @@ class AnotherPage extends StatelessWidget {
                 children: [
                   Container(
                     decoration: getOvalDecoration(),
-                    child: Padding(
-                      padding: const EdgeInsets.all(70.0),
-                      child: Text(''),
+                    child: SizedBox(
+                      height: 250,
+                      width: 250,
+                      child: Padding(
+                        padding: const EdgeInsets.all(0.0),
+                        child: Image.network("https://s3-alpha-sig.figma.com/img/59bb/0f01/600321cb7b22d574f74a0832c2aa0d23?Expires=1702857600&Signature=jEZEYVBPAbF2s8wxONmgV0vr3u89wKD-6-J81YhhETH4KDVahJ0vrn3VRaYkMylIbLlmnUAywmQ9109rm3ppv2UVd6CesA1Gw4a~2LSdYfcUz3GU43YMlGp9hm019PpmjdF7XIkDeG-G9lgOKeYnP1n1if4YTRuQ11jAlVTQ1TdzHZSnFh3JI6bWVqH44XTdfPME7tpXa5kBmqu6JeiA3QuSBTfUvcoInBpJwomCB3LkgdxODFoJPEdF6XfimjkBf-1APtDj8GJP6bgYufoQ6M0ItEJp1MyXOaD7D5AoQ1WHyZCq5w8Phjpudq7JngIQBPg9q0-NN7x4x3lrjBHBhA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),                
+                      ),
                     ),
                   ),
                   SizedBox(height: 20),
@@ -183,6 +187,8 @@ class AnotherPage extends StatelessWidget {
     );
   }
 }
+
+
 
 
 //ANOTHER PAGE 1
@@ -236,9 +242,13 @@ class AnotherPage1 extends StatelessWidget {
                 children: [
                   Container(
                     decoration: getOvalDecoration(),
-                    child: Padding(
-                      padding: const EdgeInsets.all(70.0),
-                      child: Text(''),
+                    child: SizedBox(
+                      height: 250,
+                      width: 250,
+                      child: Padding(
+                        padding: const EdgeInsets.all(0.0),
+                        child: Image.network("https://s3-alpha-sig.figma.com/img/2a6b/8871/271b24163f959f845bd4ac10b367d631?Expires=1702857600&Signature=cnaKG~aZXEZUezic-vk9niMSxCdRkvIJ3DJd~9153TLywabBogPRxqo-4kSKAgdwJ2PE9MtQ4m19YGJ4GYb3KEyRPfZVMmxdrofawpe1RZXtO5Oi-uBEze-YD4bLLF4RHhc28DC6~tVhx6kgVU2hxOfVXRklYL9fV3Cda0aTsKIUKnwuxRa9WnsjViVLTKcs-taMMb9MKMjgT89DoThYSph8TEAX8pUhHkl8T91asgc3qTVqf2JsJtsZbhXUwcBYvxBmosNaIjA-hrHsHqAjq23D7KYvmmw-xRneFiGaBTdrk~gQjk7wLZxv9Wyh-fUgatY0KOvTUCLptqat5D-5AA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),                
+                      ),
                     ),
                   ),
                   SizedBox(height: 20),
@@ -331,9 +341,13 @@ class AnotherPage2 extends StatelessWidget {
                 children: [
                   Container(
                     decoration: getOvalDecoration(),
-                    child: Padding(
-                      padding: const EdgeInsets.all(70.0),
-                      child: Text(''),
+                    child: SizedBox(
+                      height: 250,
+                      width: 250,
+                      child: Padding(
+                        padding: const EdgeInsets.all(0.0),
+                        child: Image.network("https://s3-alpha-sig.figma.com/img/4eea/d246/d5d8ae8146b641cbee41c6241abfd8b0?Expires=1702857600&Signature=Jf6fzQqyAS5pUvYOQyt93FcpVtmnuAjrsPvvD4RTWBdL7rfWIviZSBg0llOodYuyI90gAgT~XcRZEVP~IG9JHKURCk3k4Wx36NmmlYtzlglfKKhcIUPUmHlr3zCxfwShmzDfIMo-aKhCauAg7gDBO-I7CWopSxW4K-cY5HM7~rGjVZ7-v3Djz3dUPSHMBilYusZZKhgeWl7tTB98NgXH9qyclJ8-VcpWYC4563lcaZTA2UOXa~EyiqDPAEAWSmsBsfnV3f7h-9upGfydhLrlwCnrSmP9Hvbd7cVDQTzax7pD486iUIoPWtW0meDPotZ7C86JOgJ0uMFxOOuCMm5lsQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),                
+                      ),
                     ),
                   ),
                   SizedBox(height: 20),
